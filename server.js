@@ -44,7 +44,7 @@ function shuffleArray(array) {
 // Game state management
 const games = new Map();
 const MAX_PLAYERS = 5;
-const QUESTION_TIME = 20000; // 30 seconds
+const QUESTION_TIME = 20000;
 const QUESTIONS_PER_GAME = 10;
 
 // Helper function to normalize answers for comparison
