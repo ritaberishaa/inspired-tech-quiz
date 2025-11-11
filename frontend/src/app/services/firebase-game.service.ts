@@ -32,6 +32,7 @@ export class FirebaseGameService {
     try {
       const data = await firstValueFrom(this.http.get<any[]>('/assets/questions.json'));
       this.questions = data;
+      console.log(`Loaded ${this.questions.length} questions`);
     } catch (error) {
       console.error('Error loading questions:', error);
       this.questions = [];
@@ -102,11 +103,22 @@ export class FirebaseGameService {
   // Create game
   createGame(): Observable<{ gameId: string }> {
     return new Observable(observer => {
+      // Wait for questions to load if not loaded yet
       if (this.questions.length === 0) {
-        // Wait for questions to load
+        const checkQuestions = setInterval(() => {
+          if (this.questions.length > 0) {
+            clearInterval(checkQuestions);
+            this.createGame().subscribe(observer);
+          }
+        }, 100);
+        
+        // Timeout after 5 seconds
         setTimeout(() => {
-          this.createGame().subscribe(observer);
-        }, 500);
+          clearInterval(checkQuestions);
+          if (this.questions.length === 0) {
+            observer.error({ message: 'Failed to load questions. Please refresh the page.' });
+          }
+        }, 5000);
         return;
       }
       
