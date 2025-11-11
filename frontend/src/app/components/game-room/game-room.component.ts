@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { SocketService } from '../../services/socket.service';
+import { FirebaseGameService } from '../../services/firebase-game.service';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -72,7 +72,7 @@ export class GameRoomComponent implements OnInit, OnDestroy {
   
   private subscriptions = new Subscription();
 
-  constructor(private socketService: SocketService) {}
+  constructor(private gameService: FirebaseGameService) {}
 
   ngOnInit(): void {
     this.gameId = localStorage.getItem('gameId') || '';
@@ -85,7 +85,7 @@ export class GameRoomComponent implements OnInit, OnDestroy {
     }
 
     // Join the game
-    this.socketService.joinGame(this.gameId, this.playerName).subscribe({
+    this.gameService.joinGame(this.gameId, this.playerName).subscribe({
       next: (data) => {
         this.playerId = data.playerId;
         localStorage.setItem('playerId', data.playerId);
@@ -98,7 +98,7 @@ export class GameRoomComponent implements OnInit, OnDestroy {
 
     // Listen for player joins
     this.subscriptions.add(
-      this.socketService.onPlayerJoined().subscribe(data => {
+      this.gameService.onPlayerJoined().subscribe(data => {
         this.players = data.players;
         this.readyCount = data.readyCount || 0;
         // First player (index 0) is the host
@@ -108,7 +108,7 @@ export class GameRoomComponent implements OnInit, OnDestroy {
 
     // Listen for player leaves
     this.subscriptions.add(
-      this.socketService.onPlayerLeft().subscribe(data => {
+      this.gameService.onPlayerLeft().subscribe(data => {
         this.players = data.players;
         // Recalculate host after player leaves
         this.isHost = this.players.length > 0 && this.players[0].id === this.playerId;
@@ -117,7 +117,7 @@ export class GameRoomComponent implements OnInit, OnDestroy {
 
     // Listen for game start
     this.subscriptions.add(
-      this.socketService.onGameStarted().subscribe((data) => {
+      this.gameService.onGameStarted().subscribe((data) => {
         console.log('Game started event received', data);
         this.gameStarted = true;
         setTimeout(() => {
@@ -125,22 +125,10 @@ export class GameRoomComponent implements OnInit, OnDestroy {
         }, 500);
       })
     );
-    
-    // Also listen directly to socket as backup
-    const socket = this.socketService.getSocket();
-    socket.on('game-started', (data: any) => {
-      console.log('Direct socket listener received game-started', data);
-      if (!this.gameStarted) {
-        this.gameStarted = true;
-        setTimeout(() => {
-          window.dispatchEvent(new CustomEvent('navigate', { detail: 'game' }));
-        }, 500);
-      }
-    });
 
     // Listen for player ready updates
     this.subscriptions.add(
-      this.socketService.onPlayerReadyUpdate().subscribe(data => {
+      this.gameService.onPlayerReadyUpdate().subscribe(data => {
         this.readyCount = data.readyCount;
         this.allReady = data.allReady;
         if (data.allReady) {
@@ -151,7 +139,7 @@ export class GameRoomComponent implements OnInit, OnDestroy {
 
     // Listen for errors
     this.subscriptions.add(
-      this.socketService.onError().subscribe(err => {
+      this.gameService.onError().subscribe(err => {
         this.error = err.message;
       })
     );
@@ -159,7 +147,7 @@ export class GameRoomComponent implements OnInit, OnDestroy {
 
   markReady(): void {
     if (!this.isReady && !this.gameStarted) {
-      this.socketService.playerReady(this.gameId);
+      this.gameService.playerReady(this.gameId);
       this.isReady = true;
       this.readyPlayers.add(this.playerId);
     }

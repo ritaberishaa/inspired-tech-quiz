@@ -1,0 +1,1003 @@
+[
+  {
+    "id": 1,
+    "question": "Cili është kryeqyteti i Francës?",
+    "answer": "Paris"
+  },
+  {
+    "id": 2,
+    "question": "Sa ditë ka një vit i zakonshëm?",
+    "answer": "365"
+  },
+  {
+    "id": 3,
+    "question": "Cili është planeti i tretë nga Dielli?",
+    "answer": "Toka"
+  },
+  {
+    "id": 4,
+    "question": "Sa kontinente ka në botë?",
+    "answer": "7"
+  },
+  {
+    "id": 5,
+    "question": "Cila kafshë quhet \"mbreti i xhunglës\"?",
+    "answer": "Luani"
+  },
+  {
+    "id": 6,
+    "question": "Cili është oqeani më i madh në Tokë?",
+    "answer": "Oqeani Paqësor"
+  },
+  {
+    "id": 7,
+    "question": "Cili është ngjyra që përthith më shumë nxehtësi?",
+    "answer": "E zezë"
+  },
+  {
+    "id": 8,
+    "question": "Kush shpiku telefonin?",
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "id": 9,
+    "question": "Cila është valuta zyrtare e Mbretërisë së Bashkuar?",
+    "answer": "Paunda"
+  },
+  {
+    "id": 10,
+    "question": "Cili është ushqimi tradicional italian i bërë me brumë, salcë dhe djathë?",
+    "answer": "Pica"
+  },
+  {
+    "id": 11,
+    "question": "Cili është vendi i njohur si \"Toka e Diellit në Lindje\"?",
+    "answer": "Japonia"
+  },
+  {
+    "id": 12,
+    "question": "Sa kocka ka trupi i njeriut i rritur?",
+    "answer": "206"
+  },
+  {
+    "id": 13,
+    "question": "Cila është gjuha më e folur në botë?",
+    "answer": "Kineze"
+  },
+  {
+    "id": 14,
+    "question": "Kush është autori i veprës \"Hamleti\"?",
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": 15,
+    "question": "Cili është planeti i kuq?",
+    "answer": "Mars"
+  },
+  {
+    "id": 16,
+    "question": "Cila është kafsha më e madhe në Tokë?",
+    "answer": "Balena Blu"
+  },
+  {
+    "id": 17,
+    "question": "Cili është qyteti më i populluar në botë?",
+    "answer": "Tokyo"
+  },
+  {
+    "id": 18,
+    "question": "Sa minuta ka një orë?",
+    "answer": "60"
+  },
+  {
+    "id": 19,
+    "question": "Cili shtet përdor flamurin me një fushë të bardhë dhe një rreth të kuq në mes?",
+    "answer": "Japonia"
+  },
+  {
+    "id": 20,
+    "question": "Sa anë ka një trekëndësh?",
+    "answer": "3"
+  },
+  {
+    "id": 21,
+    "question": "Cila është njësi matëse për temperaturën?",
+    "answer": "Celsius"
+  },
+  {
+    "id": 22,
+    "question": "Cili është sporti më i popullor në botë?",
+    "answer": "Futbolli"
+  },
+  {
+    "id": 23,
+    "question": "Cili vend shpiku barutin?",
+    "answer": "Kina"
+  },
+  {
+    "id": 24,
+    "question": "Cili është fruti që nuk mban peshë në ujë?",
+    "answer": "Kokosi"
+  },
+  {
+    "id": 25,
+    "question": "Sa ngjyra ka ylberi?",
+    "answer": "7"
+  },
+  {
+    "id": 26,
+    "question": "Cili është lumi që kalon nëpër Egjipt?",
+    "answer": "Nili"
+  },
+  {
+    "id": 27,
+    "question": "Cili është emri i satelitit natyror të Tokës?",
+    "answer": "Hëna"
+  },
+  {
+    "id": 28,
+    "question": "Cili është elementi kimik me simbolin \"O\"?",
+    "answer": "Oksigjeni"
+  },
+  {
+    "id": 29,
+    "question": "Në cilin vend ndodhet qyteti i Dubait?",
+    "answer": "Emiratet e Bashkuara Arabe"
+  },
+  {
+    "id": 30,
+    "question": "Sa është 9 × 8?",
+    "answer": "72"
+  },
+  {
+    "id": 31,
+    "question": "Kush ishte gruaja e parë që fitoi Çmimin Nobel?",
+    "answer": "Marie Curie"
+  },
+  {
+    "id": 32,
+    "question": "Cila është fjala latine për \"unë mendoj, pra ekzistoj\"?",
+    "answer": "Cogito ergo sum"
+  },
+  {
+    "id": 33,
+    "question": "Cili është vendi me më shumë popullsi myslimane në botë?",
+    "answer": "Indonezia"
+  },
+  {
+    "id": 34,
+    "question": "Në cilin vit Kosova shpalli pavarësinë?",
+    "answer": "2008"
+  },
+  {
+    "id": 35,
+    "question": "Cila është maja më e lartë në botë?",
+    "answer": "Everest"
+  },
+  {
+    "id": 36,
+    "question": "Cila është shkencë që studion yjet dhe planetët?",
+    "answer": "Astronomia"
+  },
+  {
+    "id": 37,
+    "question": "Cila kafshë ka kujtesën më të gjatë?",
+    "answer": "Delfini"
+  },
+  {
+    "id": 38,
+    "question": "Cili vend ka formën e një çizmeje në hartë?",
+    "answer": "Italia"
+  },
+  {
+    "id": 39,
+    "question": "Cili është metali më i lehtë?",
+    "answer": "Litiumi"
+  },
+  {
+    "id": 40,
+    "question": "Cili është organi më i madh në trupin e njeriut?",
+    "answer": "Lëkura"
+  },
+  {
+    "id": 41,
+    "question": "Kush ishte presidenti i parë i SHBA-ve?",
+    "answer": "George Washington"
+  },
+  {
+    "id": 42,
+    "question": "Cila është kafsha kombëtare e Kinës?",
+    "answer": "Panda"
+  },
+  {
+    "id": 43,
+    "question": "Cila është gjuha zyrtare e Brazilit?",
+    "answer": "Portugalishtja"
+  },
+  {
+    "id": 44,
+    "question": "Cili vend njihet për festivalin \"Oktoberfest\"?",
+    "answer": "Gjermania"
+  },
+  {
+    "id": 45,
+    "question": "Cili shkencëtar formuloi teorinë e relativitetit?",
+    "answer": "Albert Einstein"
+  },
+  {
+    "id": 46,
+    "question": "Cili është qyteti i shenjtë për tre fe të mëdha: Islam, Krishterim dhe Judaizëm?",
+    "answer": "Jeruzalemi"
+  },
+  {
+    "id": 47,
+    "question": "Cila është kryeqyteti më verior në botë?",
+    "answer": "Reykjavik"
+  },
+  {
+    "id": 48,
+    "question": "Sa hëna ka planeti Jupiter?",
+    "answer": "79"
+  },
+  {
+    "id": 49,
+    "question": "Cili është liqeni më i madh në botë?",
+    "answer": "Kaspiku"
+  },
+  {
+    "id": 50,
+    "question": "Cili ishte filozofi grek që u dënua duke pirë cikuta?",
+    "answer": "Sokrati"
+  },
+  {
+    "id": 51,
+    "question": "Cila është gjuha më e vjetër e shkruar e njohur?",
+    "answer": "Sumerishtja"
+  },
+  {
+    "id": 52,
+    "question": "Cili vend shpiku shtypshkronjën?",
+    "answer": "Kina"
+  },
+  {
+    "id": 53,
+    "question": "Sa anëtarë ka Bashkimi Evropian?",
+    "answer": "27"
+  },
+  {
+    "id": 54,
+    "question": "Kush ishte udhëheqësi i Revolucionit Indian për pavarësi?",
+    "answer": "Mahatma Gandhi"
+  },
+  {
+    "id": 55,
+    "question": "Cili është shteti më i ftohtë i banuar në Tokë?",
+    "answer": "Rusia"
+  },
+  {
+    "id": 56,
+    "question": "Cila është njësia matëse për frekuencën e valëve?",
+    "answer": "Hertz"
+  },
+  {
+    "id": 57,
+    "question": "Në cilin kontinent ndodhet shkretëtira Sahara?",
+    "answer": "Afrika"
+  },
+  {
+    "id": 58,
+    "question": "Cila është përbërësja kryesore e ajrit?",
+    "answer": "Azoti"
+  },
+  {
+    "id": 59,
+    "question": "Cila është kompania që zhvilloi sistemin operativ \"Windows\"?",
+    "answer": "Microsoft"
+  },
+  {
+    "id": 60,
+    "question": "Cili është sportisti që mban rekordin botëror për 100 metra vrap?",
+    "answer": "Usain Bolt"
+  },
+  {
+    "id": 61,
+    "question": "Në cilin vit ndodhi Revolucioni Francez?",
+    "answer": "1789"
+  },
+  {
+    "id": 62,
+    "question": "Cila është kafsha tokësore më e shpejtë?",
+    "answer": "Gepardi"
+  },
+  {
+    "id": 63,
+    "question": "Cili vend është i njohur për orët \"Rolex\"?",
+    "answer": "Zvicra"
+  },
+  {
+    "id": 64,
+    "question": "Cila është kryeqyteti i Kanadasë?",
+    "answer": "Ottawa"
+  },
+  {
+    "id": 65,
+    "question": "Cili është vendi më i vogël në botë?",
+    "answer": "Vatikani"
+  },
+  {
+    "id": 66,
+    "question": "Cila është njësia matëse për energjinë?",
+    "answer": "Xhaul"
+  },
+  {
+    "id": 67,
+    "question": "Cili është qyteti ku ndodhet Kulla e Pizës?",
+    "answer": "Piza"
+  },
+  {
+    "id": 68,
+    "question": "Cili element është bazë e jetës në Tokë?",
+    "answer": "Karboni"
+  },
+  {
+    "id": 69,
+    "question": "Cili vend është i njohur si \"Toka e Zjarrit dhe Akullit\"?",
+    "answer": "Islanda"
+  },
+  {
+    "id": 70,
+    "question": "Cili është personi që shpiku World Wide Web?",
+    "answer": "Tim Berners-Lee"
+  },
+  {
+    "id": 71,
+    "question": "Cili është elementi me pikën më të lartë të shkrirjes?",
+    "answer": "Volframi"
+  },
+  {
+    "id": 72,
+    "question": "Cili është qyteti më i vjetër i banuar vazhdimisht në botë?",
+    "answer": "Damasku"
+  },
+  {
+    "id": 73,
+    "question": "Cili filozof tha \"Njeriu është masa e të gjitha gjërave\"?",
+    "answer": "Protagora"
+  },
+  {
+    "id": 74,
+    "question": "Cila është gjuha më e vjetër indo-evropiane që ende flitet sot?",
+    "answer": "Greqishtja"
+  },
+  {
+    "id": 75,
+    "question": "Cili shtet ka më shumë fqinjë tokësorë?",
+    "answer": "Kina"
+  },
+  {
+    "id": 76,
+    "question": "Cili është sateliti më i madh në sistemin diellor?",
+    "answer": "Ganymede"
+  },
+  {
+    "id": 77,
+    "question": "Kush shpiku makinerinë e parë llogaritëse mekanike?",
+    "answer": "Blaise Pascal"
+  },
+  {
+    "id": 78,
+    "question": "Cila është teoria që shpjegon origjinën e universit?",
+    "answer": "Big Bang"
+  },
+  {
+    "id": 79,
+    "question": "Cili element kimik është më i bollshëm në univers?",
+    "answer": "Hidrogjeni"
+  },
+  {
+    "id": 80,
+    "question": "Cili është dallimi kryesor midis ADN-së dhe ARN-së?",
+    "answer": "ADN ka deoksiribozë, ARN ka ribozë"
+  },
+  {
+    "id": 81,
+    "question": "Cila është struktura e brendshme e Tokës (nga jashtë brenda)?",
+    "answer": "Korja, manteli, bërthama"
+  },
+  {
+    "id": 82,
+    "question": "Cila është qytetërimi i parë që shpiku shkrimin?",
+    "answer": "Sumerianët"
+  },
+  {
+    "id": 83,
+    "question": "Cili ishte emri i operacionit të NATO-s në Kosovë në vitin 1999?",
+    "answer": "Forca e Ajrit të Aleatëve"
+  },
+  {
+    "id": 84,
+    "question": "Cila është formula për llogaritjen e energjisë kinetike?",
+    "answer": "E = 1/2 mv²"
+  },
+  {
+    "id": 85,
+    "question": "Cili është vendi që ka më shumë piramida se Egjipti?",
+    "answer": "Sudani"
+  },
+  {
+    "id": 86,
+    "question": "Cili ishte misioni i parë që zbriti njerëzit në Hënë?",
+    "answer": "Apollo 11"
+  },
+  {
+    "id": 87,
+    "question": "Cila është sëmundja që eliminohet me vaksinën BCG?",
+    "answer": "Tuberkuloza"
+  },
+  {
+    "id": 88,
+    "question": "Cila është origjina e fjalës \"teknologji\"?",
+    "answer": "Greqishtja"
+  },
+  {
+    "id": 89,
+    "question": "Cili është fenomeni që ndodh kur drita ndryshon drejtim duke kaluar në një medium tjetër?",
+    "answer": "Refraksioni"
+  },
+  {
+    "id": 90,
+    "question": "Cili është qyteti ku u zhvilluan Lojërat Olimpike 2008?",
+    "answer": "Beijing"
+  },
+  {
+    "id": 91,
+    "question": "Cili është vendi më i pasur me rezerva ari në botë?",
+    "answer": "Shtetet e Bashkuara"
+  },
+  {
+    "id": 92,
+    "question": "Cili ishte filozofi që shkroi \"Republika\"?",
+    "answer": "Platoni"
+  },
+  {
+    "id": 93,
+    "question": "Cili është materiali më i fortë natyror i njohur?",
+    "answer": "Diamanti"
+  },
+  {
+    "id": 94,
+    "question": "Cili është shkaku i \"efektit sera\"?",
+    "answer": "Gazrat serë"
+  },
+  {
+    "id": 95,
+    "question": "Cili është kontinenti me më shumë shtete?",
+    "answer": "Afrika"
+  },
+  {
+    "id": 96,
+    "question": "Cila është forma më e përhapur e energjisë në univers?",
+    "answer": "Energjia e errët"
+  },
+  {
+    "id": 97,
+    "question": "Cili është dallimi midis inteligjencës artificiale të dobët dhe asaj të fortë?",
+    "answer": "AI e dobët është e specializuar, AI e fortë është e përgjithshme"
+  },
+  {
+    "id": 98,
+    "question": "Cila ishte arsyeja pse shumica e flamujve nuk përdorën ngjyrën vjollcë historikisht?",
+    "answer": "Kostoja e lartë e pigmentit"
+  },
+  {
+    "id": 99,
+    "question": "Cila është njësia matëse për fuqinë elektrike?",
+    "answer": "Vat"
+  },
+  {
+    "id": 100,
+    "question": "Cili vend shpalli pavarësinë e tij më 17 shkurt 2008?",
+    "answer": "Kosova"
+  },
+  {
+    "id": 101,
+    "question": "Sa ditë ka muaji shkurt në një vit të zakonshëm?",
+    "answer": "28"
+  },
+  {
+    "id": 102,
+    "question": "Cila kafshë jep qumështin që përdoret për djathin mozzarella?",
+    "answer": "Bufalo"
+  },
+  {
+    "id": 103,
+    "question": "Cili kontinent ka më shumë popullsi?",
+    "answer": "Azia"
+  },
+  {
+    "id": 104,
+    "question": "Cili është simboli kimik i arit?",
+    "answer": "Au"
+  },
+  {
+    "id": 105,
+    "question": "Cili është instrumenti që ka 88 taste?",
+    "answer": "Piano"
+  },
+  {
+    "id": 106,
+    "question": "Në cilin vend ndodhet Piramida e Keopsit?",
+    "answer": "Egjipt"
+  },
+  {
+    "id": 107,
+    "question": "Cili është fruti që ka më shumë vitaminë C?",
+    "answer": "Portokalli"
+  },
+  {
+    "id": 108,
+    "question": "Cili sport luhet me një top të vogël të bardhë dhe shkop?",
+    "answer": "Golfi"
+  },
+  {
+    "id": 109,
+    "question": "Cili vend është i njohur për kangurët dhe koalat?",
+    "answer": "Australia"
+  },
+  {
+    "id": 110,
+    "question": "Cila kafshë mund të fle për më shumë se 20 orë në ditë?",
+    "answer": "Koala"
+  },
+  {
+    "id": 111,
+    "question": "Cili është planeti më i madh në sistemin diellor?",
+    "answer": "Jupiteri"
+  },
+  {
+    "id": 112,
+    "question": "Cila ngjyrë shfaqet në mes të ylberit?",
+    "answer": "E gjelbërt"
+  },
+  {
+    "id": 113,
+    "question": "Sa anë ka një katror?",
+    "answer": "4"
+  },
+  {
+    "id": 114,
+    "question": "Cila është kafsha që mund të fluturojë natën dhe përdor sonar?",
+    "answer": "Lakuriqi"
+  },
+  {
+    "id": 115,
+    "question": "Cili është deti që ndodhet midis Italisë dhe Kroacisë?",
+    "answer": "Adriatiku"
+  },
+  {
+    "id": 116,
+    "question": "Cili është shteti që kufizohet me SHBA-në në jug?",
+    "answer": "Meksika"
+  },
+  {
+    "id": 117,
+    "question": "Sa javë ka një vit?",
+    "answer": "52"
+  },
+  {
+    "id": 118,
+    "question": "Cili është emri i kryeqytetit të Spanjës?",
+    "answer": "Madridi"
+  },
+  {
+    "id": 119,
+    "question": "Cili është ushqimi kombëtar i Japonisë?",
+    "answer": "Sushi"
+  },
+  {
+    "id": 120,
+    "question": "Sa krahë ka një shpend?",
+    "answer": "2"
+  },
+  {
+    "id": 121,
+    "question": "Cila është kafsha më e shpejtë në ujë?",
+    "answer": "Peshku shpatë"
+  },
+  {
+    "id": 122,
+    "question": "Cili është kontinenti ku gjenden më shumë shkretëtira?",
+    "answer": "Afrika"
+  },
+  {
+    "id": 123,
+    "question": "Cila është ngjyra e gjakut nën lëkurë (kur oksigjeni mungon)?",
+    "answer": "E kaltër"
+  },
+  {
+    "id": 124,
+    "question": "Cila kafshë bën vezë por është gjitar?",
+    "answer": "Platypusi"
+  },
+  {
+    "id": 125,
+    "question": "Cila është bima që përdoret për të bërë çokollatë?",
+    "answer": "Kakaoja"
+  },
+  {
+    "id": 126,
+    "question": "Cili shtet përdor si flamur vetëm një ngjyrë?",
+    "answer": "Libia"
+  },
+  {
+    "id": 127,
+    "question": "Cili ishte personi i parë që fluturoi me aeroplan?",
+    "answer": "Orville dhe Wilbur Wright"
+  },
+  {
+    "id": 128,
+    "question": "Cili është planeti më i largët nga Dielli?",
+    "answer": "Neptuni"
+  },
+  {
+    "id": 129,
+    "question": "Cila është metropola më e madhe në Amerikën e Jugut?",
+    "answer": "São Paulo"
+  },
+  {
+    "id": 130,
+    "question": "Sa ditë ka një vit i brishtë?",
+    "answer": "366"
+  },
+  {
+    "id": 131,
+    "question": "Cili është shteti më i madh në botë sipas sipërfaqes?",
+    "answer": "Rusia"
+  },
+  {
+    "id": 132,
+    "question": "Cili është lumi që kalon nëpër Londër?",
+    "answer": "Tamisa"
+  },
+  {
+    "id": 133,
+    "question": "Cili është qyteti më i lashtë në Shqipëri?",
+    "answer": "Durrësi"
+  },
+  {
+    "id": 134,
+    "question": "Cila është shkencë që studion tërmetet?",
+    "answer": "Sizmologjia"
+  },
+  {
+    "id": 135,
+    "question": "Kush është kompozitori i veprës \"Simfonia e 9-të\"?",
+    "answer": "Ludwig van Beethoven"
+  },
+  {
+    "id": 136,
+    "question": "Cili është mali më i lartë në Afrikë?",
+    "answer": "Kilimanxharo"
+  },
+  {
+    "id": 137,
+    "question": "Cila ishte lufta që përfundoi në vitin 1945?",
+    "answer": "Lufta e Dytë Botërore"
+  },
+  {
+    "id": 138,
+    "question": "Cila është valuta e Suedisë?",
+    "answer": "Korona"
+  },
+  {
+    "id": 139,
+    "question": "Kush është themeluesi i kompanisë Tesla?",
+    "answer": "Elon Musk"
+  },
+  {
+    "id": 140,
+    "question": "Cili është përbërësi kryesor i rërës?",
+    "answer": "Siliciumi"
+  },
+  {
+    "id": 141,
+    "question": "Cila është kafsha që simbolizon paqen?",
+    "answer": "Pëllumbi"
+  },
+  {
+    "id": 142,
+    "question": "Në cilin vend ndodhet Kulla Eifel?",
+    "answer": "Paris"
+  },
+  {
+    "id": 143,
+    "question": "Sa hëna ka planeti Mars?",
+    "answer": "2"
+  },
+  {
+    "id": 144,
+    "question": "Cila është gjuha zyrtare në Egjipt?",
+    "answer": "Arabishtja"
+  },
+  {
+    "id": 145,
+    "question": "Cili është vendi me më shumë ishuj në botë?",
+    "answer": "Suedia"
+  },
+  {
+    "id": 146,
+    "question": "Cila është kryeqyteti i Zelandës së Re?",
+    "answer": "Wellington"
+  },
+  {
+    "id": 147,
+    "question": "Cili është emri i shkencës që studion paratë?",
+    "answer": "Numizmatika"
+  },
+  {
+    "id": 148,
+    "question": "Cila është gjuha zyrtare në Kanada?",
+    "answer": "Anglishtja dhe Frëngjishtja"
+  },
+  {
+    "id": 149,
+    "question": "Cili është organi që pompon gjakun?",
+    "answer": "Zemra"
+  },
+  {
+    "id": 150,
+    "question": "Cili vend njihet për vallëzimin tango?",
+    "answer": "Argjentina"
+  },
+  {
+    "id": 151,
+    "question": "Cila është teknologjia që përdor satelitë për të përcaktuar pozicionin në Tokë?",
+    "answer": "GPS"
+  },
+  {
+    "id": 152,
+    "question": "Cili është viti kur u shemb Muri i Berlinit?",
+    "answer": "1989"
+  },
+  {
+    "id": 153,
+    "question": "Cili është kontinenti me më pak vende?",
+    "answer": "Antarktida"
+  },
+  {
+    "id": 154,
+    "question": "Cili është liqeni më i thellë në botë?",
+    "answer": "Baikali"
+  },
+  {
+    "id": 155,
+    "question": "Cili është përbërësi kryesor i qelqit?",
+    "answer": "Siliciumi dioksid"
+  },
+  {
+    "id": 156,
+    "question": "Cili është shkencëtari që formuloi ligjin e gravitetit?",
+    "answer": "Isaac Newton"
+  },
+  {
+    "id": 157,
+    "question": "Cili është lloji më i madh i arinjve?",
+    "answer": "Ariu polar"
+  },
+  {
+    "id": 158,
+    "question": "Cila është njësia matëse për tensionin elektrik?",
+    "answer": "Volt"
+  },
+  {
+    "id": 159,
+    "question": "Cila është vendlindja e Mozartit?",
+    "answer": "Austria"
+  },
+  {
+    "id": 160,
+    "question": "Cili është qyteti më i madh në Turqi?",
+    "answer": "Istanbul"
+  },
+  {
+    "id": 161,
+    "question": "Cili është gjuha e parë e programimit kompjuterik?",
+    "answer": "FORTRAN"
+  },
+  {
+    "id": 162,
+    "question": "Cila është epoka kur u zhvilluan dinozaurët?",
+    "answer": "Mesozoiku"
+  },
+  {
+    "id": 163,
+    "question": "Cili është planeti me më shumë unaza?",
+    "answer": "Saturni"
+  },
+  {
+    "id": 164,
+    "question": "Cili vend shpiku lojën e shahut?",
+    "answer": "India"
+  },
+  {
+    "id": 165,
+    "question": "Cila është kafsha simbol e Austrisë?",
+    "answer": "Shqiponja"
+  },
+  {
+    "id": 166,
+    "question": "Cila është njësia për matjen e presionit atmosferik?",
+    "answer": "Paskal"
+  },
+  {
+    "id": 167,
+    "question": "Cili është emri i njeriut më të pasur në botë në 2025?",
+    "answer": "Elon Musk"
+  },
+  {
+    "id": 168,
+    "question": "Cila është gjuha zyrtare e Zvicrës?",
+    "answer": "Gjermanishtja, Frëngjishtja, Italianishtja, Retoromanishtja"
+  },
+  {
+    "id": 169,
+    "question": "Cili vend është më i vogli në Amerikën e Jugut?",
+    "answer": "Surinami"
+  },
+  {
+    "id": 170,
+    "question": "Cila është kafsha më inteligjente pas njeriut?",
+    "answer": "Shimpanzeja"
+  },
+  {
+    "id": 171,
+    "question": "Cili është elementi më i rrallë në Tokë?",
+    "answer": "Astatini"
+  },
+  {
+    "id": 172,
+    "question": "Cili është vendi që ndodhet në dy kontinente njëkohësisht?",
+    "answer": "Turqia"
+  },
+  {
+    "id": 173,
+    "question": "Cila është përbërja kimike e ujit të detit?",
+    "answer": "Klorur natriumi"
+  },
+  {
+    "id": 174,
+    "question": "Cili ishte filozofi që udhëzonte me shprehjen \"Njih veten tënde\"?",
+    "answer": "Sokrati"
+  },
+  {
+    "id": 175,
+    "question": "Cila është galaktika më e afërt me Rrugën e Qumështit?",
+    "answer": "Andromeda"
+  },
+  {
+    "id": 176,
+    "question": "Cila është njësia bazë e trashëgimisë gjenetike?",
+    "answer": "Gjeni"
+  },
+  {
+    "id": 177,
+    "question": "Cili është dallimi midis asteroidit dhe meteorës?",
+    "answer": "Asteroidi është në hapësirë, meteorë është në atmosferë"
+  },
+  {
+    "id": 178,
+    "question": "Cili është programi i parë kompjuterik i krijuar ndonjëherë?",
+    "answer": "Algoritmi i Ada Lovelace"
+  },
+  {
+    "id": 179,
+    "question": "Cili qytet njihet si \"Kryeqyteti i Modës\"?",
+    "answer": "Milano"
+  },
+  {
+    "id": 180,
+    "question": "Cili është dallimi mes ADN-së dhe kromozomit?",
+    "answer": "Kromozomi është strukturë që përmban ADN"
+  },
+  {
+    "id": 181,
+    "question": "Cili është planeti që rrotullohet më shpejt?",
+    "answer": "Jupiteri"
+  },
+  {
+    "id": 182,
+    "question": "Cila është epoka më e fundit gjeologjike?",
+    "answer": "Holoceni"
+  },
+  {
+    "id": 183,
+    "question": "Cila është formula kimike e ozonit?",
+    "answer": "O3"
+  },
+  {
+    "id": 184,
+    "question": "Cili është qyteti më i ftohtë i banuar në Tokë?",
+    "answer": "Yakutsk"
+  },
+  {
+    "id": 185,
+    "question": "Cila është kompania që krijoi sistemin operativ Android?",
+    "answer": "Google"
+  },
+  {
+    "id": 186,
+    "question": "Cili është vendi që shpiku notacionin muzikor?",
+    "answer": "Italia"
+  },
+  {
+    "id": 187,
+    "question": "Cili është dallimi mes satelitit natyror dhe atij artificial?",
+    "answer": "Sateliti natyror është krijuar nga natyra, artificiali nga njeriu"
+  },
+  {
+    "id": 188,
+    "question": "Cila është njësia matëse e intensitetit të dritës?",
+    "answer": "Lumen"
+  },
+  {
+    "id": 189,
+    "question": "Cili është shkencëtari që zbuloi elektrizimin përmes fërkimit?",
+    "answer": "Thales"
+  },
+  {
+    "id": 190,
+    "question": "Cila është origjina e fjalës \"matematikë\"?",
+    "answer": "Greqishtja"
+  },
+  {
+    "id": 191,
+    "question": "Cili është materiali më i lehtë artificial i njohur?",
+    "answer": "Aerogeli"
+  },
+  {
+    "id": 192,
+    "question": "Cila është teoria që shpjegon zhdukjen e dinozaurëve?",
+    "answer": "Teoria e asteroidit"
+  },
+  {
+    "id": 193,
+    "question": "Cila është pjesa më e thellë e oqeanit?",
+    "answer": "Lugina Mariana"
+  },
+  {
+    "id": 194,
+    "question": "Cili është elementi kryesor në trupin e njeriut përveç ujit?",
+    "answer": "Karboni"
+  },
+  {
+    "id": 195,
+    "question": "Cila është njësia matëse për fuqinë e motorëve të makinave?",
+    "answer": "Kuajfuqi"
+  },
+  {
+    "id": 196,
+    "question": "Cila është arsyeja pse drita përkulet kur kalon nëpër ujë?",
+    "answer": "Refraksioni"
+  },
+  {
+    "id": 197,
+    "question": "Cila është shpejtësia e dritës në vakum?",
+    "answer": "299792458 metra për sekondë"
+  },
+  {
+    "id": 198,
+    "question": "Cili është ndryshimi mes inteligjencës natyrore dhe artificiale?",
+    "answer": "Inteligjenca natyrore është biologjike, artificiale është teknologjike"
+  },
+  {
+    "id": 199,
+    "question": "Cila është sëmundja që shkatërron sistemin imunitar?",
+    "answer": "SIDA"
+  },
+  {
+    "id": 200,
+    "question": "Cili është parimi themelor i mekanikës kuantike?",
+    "answer": "Parimi i pasigurisë së Heisenberg"
+  }
+]
+

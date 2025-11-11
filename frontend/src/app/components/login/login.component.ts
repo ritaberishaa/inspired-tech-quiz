@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SocketService } from '../../services/socket.service';
+import { FirebaseGameService } from '../../services/firebase-game.service';
 
 @Component({
   selector: 'app-login',
@@ -73,7 +73,7 @@ export class LoginComponent {
   loading = false;
   error = '';
 
-  constructor(private socketService: SocketService) {}
+  constructor(private gameService: FirebaseGameService) {}
 
   createGame(): void {
     if (!this.playerName.trim()) {
@@ -84,7 +84,7 @@ export class LoginComponent {
     this.loading = true;
     this.error = '';
 
-    this.socketService.createGame().subscribe({
+    this.gameService.createGame().subscribe({
       next: (data) => {
         // Store player name and game ID
         localStorage.setItem('playerName', this.playerName);
@@ -115,7 +115,7 @@ export class LoginComponent {
     this.loading = true;
     this.error = '';
 
-    this.socketService.joinGame(this.gameId.toUpperCase().trim(), this.playerName).subscribe({
+    this.gameService.joinGame(this.gameId.toUpperCase().trim(), this.playerName).subscribe({
       next: (data) => {
         // Store player name and game ID
         localStorage.setItem('playerName', this.playerName);

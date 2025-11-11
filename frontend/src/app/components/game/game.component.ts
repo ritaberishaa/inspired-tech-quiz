@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { SocketService } from '../../services/socket.service';
+import { FirebaseGameService } from '../../services/firebase-game.service';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -70,7 +70,7 @@ export class GameComponent implements OnInit, OnDestroy {
   private subscriptions = new Subscription();
   private gameId = '';
 
-  constructor(private socketService: SocketService) {}
+  constructor(private gameService: FirebaseGameService) {}
 
   ngOnInit(): void {
     this.gameId = localStorage.getItem('gameId') || '';
@@ -82,7 +82,7 @@ export class GameComponent implements OnInit, OnDestroy {
 
     // Listen for new questions
     this.subscriptions.add(
-      this.socketService.onNewQuestion().subscribe(data => {
+      this.gameService.onNewQuestion().subscribe(data => {
         this.currentQuestion = data.question;
         this.currentQuestionNumber = data.questionNumber;
         this.totalQuestions = data.totalQuestions;
@@ -96,16 +96,16 @@ export class GameComponent implements OnInit, OnDestroy {
 
     // Listen for live scores (updated when players submit answers and at game start)
     this.subscriptions.add(
-      this.socketService.onLiveScores().subscribe(data => {
-        if (data.scores && data.scores.length > 0) {
-          this.liveScores = data.scores;
+      this.gameService.onLiveScores().subscribe(scores => {
+        if (scores && scores.length > 0) {
+          this.liveScores = scores;
         }
       })
     );
 
     // Listen for question results
     this.subscriptions.add(
-      this.socketService.onQuestionResult().subscribe(data => {
+      this.gameService.onQuestionResult().subscribe(data => {
         this.correctAnswer = data.correctAnswer;
         this.currentScores = data.scores;
         this.liveScores = data.scores; // Update live scores with final scores for this question
@@ -116,7 +116,7 @@ export class GameComponent implements OnInit, OnDestroy {
 
     // Listen for game end
     this.subscriptions.add(
-      this.socketService.onGameEnded().subscribe(data => {
+      this.gameService.onGameEnded().subscribe(data => {
         localStorage.setItem('gameResults', JSON.stringify(data.results));
         localStorage.setItem('gameQuestions', JSON.stringify(data.questions));
         window.dispatchEvent(new CustomEvent('navigate', { detail: 'results' }));
@@ -125,11 +125,11 @@ export class GameComponent implements OnInit, OnDestroy {
 
     // Also listen for game started (first question)
     this.subscriptions.add(
-      this.socketService.onGameStarted().subscribe(data => {
+      this.gameService.onGameStarted().subscribe(data => {
         this.currentQuestion = data.question;
         this.currentQuestionNumber = data.questionNumber;
         this.totalQuestions = data.totalQuestions;
-        this.timeLeft = 30; // 30 seconds
+        this.timeLeft = 20; // 20 seconds
         this.startTimer();
       })
     );
@@ -155,7 +155,7 @@ export class GameComponent implements OnInit, OnDestroy {
       return;
     }
 
-    this.socketService.submitAnswer(this.gameId, this.userAnswer).subscribe({
+    this.gameService.submitAnswer(this.gameId, this.userAnswer).subscribe({
       next: () => {
         this.answerSubmitted = true;
       },
