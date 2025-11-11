@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "question": "Who painted the Starry Night?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": 2,
+    "question": "What is the capital of France?",
+    "answer": "Paris"
+  },
+  {
+    "id": 3,
+    "question": "In which year did World War II end?",
+    "answer": "1945"
+  },
+  {
+    "id": 4,
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter"
+  },
+  {
+    "id": 5,
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": 6,
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au"
+  },
+  {
+    "id": 7,
+    "question": "Which ocean is the largest?",
+    "answer": "Pacific Ocean"
+  },
+  {
+    "id": 8,
+    "question": "What is the speed of light in vacuum?",
+    "answer": "299792458 meters per second"
+  },
+  {
+    "id": 9,
+    "question": "Who invented the telephone?",
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "id": 10,
+    "question": "What is the smallest prime number?",
+    "answer": "2"
+  },
+  {
+    "id": 11,
+    "question": "Which country is home to the kangaroo?",
+    "answer": "Australia"
+  },
+  {
+    "id": 12,
+    "question": "What is the main ingredient in guacamole?",
+    "answer": "Avocado"
+  },
+  {
+    "id": 13,
+    "question": "Who was the first person to walk on the moon?",
+    "answer": "Neil Armstrong"
+  },
+  {
+    "id": 14,
+    "question": "What is the longest river in the world?",
+    "answer": "Nile"
+  },
+  {
+    "id": 15,
+    "question": "In which city is the Eiffel Tower located?",
+    "answer": "Paris"
+  },
+  {
+    "id": 16,
+    "question": "What is the hardest natural substance on Earth?",
+    "answer": "Diamond"
+  },
+  {
+    "id": 17,
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "id": 18,
+    "question": "What is the square root of 144?",
+    "answer": "12"
+  },
+  {
+    "id": 19,
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars"
+  },
+  {
+    "id": 20,
+    "question": "What is the largest mammal in the world?",
+    "answer": "Blue Whale"
+  }
+]
+
